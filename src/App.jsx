@@ -1,12 +1,6 @@
-import * as React from "react";
-import { CssVarsProvider } from "@mui/joy/styles";
-import Sheet from "@mui/joy/Sheet";
 import "./App.css";
+import Header from "./components/Header";
 
 export default function App() {
-  return (
-    <CssVarsProvider>
-      <Sheet variant="outlined">Welcome!</Sheet>
-    </CssVarsProvider>
-  );
+  return <Header />;
 }
